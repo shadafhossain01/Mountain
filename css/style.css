@@ -1,0 +1,277 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --color:#ff660d;
+}
+body{
+    font-family: 'Catamaran', sans-serif;
+    overflow-x: hidden;
+}
+a{
+    text-decoration: none;
+    
+}
+
+ul{
+    padding-left: 0px;
+}
+
+ul li{
+    list-style-type: none;
+    display: inline-block;
+}
+
+/* ***********************
+                   header css
+*************************/
+header{
+    position: absolute;
+    width: 100%;
+    padding: 7px 0px;
+}
+
+header .nav-link{
+    color: white;
+    text-transform: capitalize;
+    margin-left: 8px;
+    font-size: 18px;
+}
+header .nav-link:hover{
+    color: var(--color);
+}
+
+
+/* ***********************
+                  banner  css
+*************************/
+.banner{
+    width: 100%;
+    height: 105vh;
+    background-image: url(../img/banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center ;
+    display: flex;
+    align-items: center;
+}
+
+.banner p{
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+    margin-bottom: 70px;
+    margin-top: 80px;
+}
+
+.banner a{
+    background-color: var(--color);
+    color: white;
+    padding: 10px 30px;
+    border-radius: 5px;
+}
+
+/* ***********************
+            offer  css
+*************************/
+.offer{
+    width: 100%;
+    padding: 80px 0px;
+}
+.offer h2{
+    margin-bottom: 20px;
+    color: rgba(0, 0, 0, 0.7);
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.offer-item {
+    text-align: center;
+    margin-top: 70px;
+}
+
+
+
+.offer-item h6{
+    margin-top: 30px;
+    margin-bottom: 10px;
+color: gray;
+}
+
+.offer-item h4{
+  color: rgba(0, 0, 0, 0.7);
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.offer a{
+    background-color: var(--color);
+    color: white;
+    padding: 8px 20px;
+    border-radius: 5px;
+
+}
+
+/* ***********************
+          gallery   css
+*************************/
+.gallery{
+
+    width: 100%;
+padding: 70px 0px;
+    
+}
+
+.gallery .g-item{
+padding: 0px 0px;
+}
+
+
+
+/* ***********************
+         crew  css
+*************************/
+.crew{
+    width: 100%;
+    padding: 30px 0px;
+}
+.crew h2{
+    margin-bottom: 20px;
+    color: rgba(0, 0, 0, 0.7);
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: 90px;
+}
+.crew-item{
+    text-align: center;
+    margin-bottom: 70px;
+}
+.crew-item h6{
+    margin-top: 20px;
+}
+.crew-item h4{
+    color: rgba(0, 0, 0, 0.89);
+    font-weight: bold;
+}
+
+
+/* ***********************
+       setisfiction  css
+*************************/
+.setisfiction{
+    width: 100%;
+ height: 90vh;
+    background-image: url(../img/banner02.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right center ;
+    display: flex;
+    align-items: center;
+}
+
+.setisfiction h2{
+    color: rgba(0, 0, 0, 0.877);
+    font-weight: 400;
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+
+.setisfiction  p{
+    margin-bottom: 60px;
+}
+
+.setisfiction  .s-item h3{
+color: var(--color);
+font-weight: bold;
+font-size: 50px;
+}
+.setisfiction  .s-item span{
+    font-weight: bold;
+}
+
+
+
+/* ***********************
+ testimonial  css
+*************************/
+.testimonial{
+    width: 100%;
+
+ padding: 60px 0px;
+ margin-top: 50px;
+}
+.testimonial h2{
+    color: rgba(0, 0, 0, 0.877);
+    font-weight: 400;
+    font-size: 50px;
+    margin-bottom: 50px;
+}
+
+.testimonial .test-item h6{
+margin-top: 15px;
+font-weight: bold;
+color: rgb(71, 71, 71);
+font-size: 20px;
+margin-bottom: 25px;
+}
+
+.owl-carousel .owl-item img {
+display: inline-block;
+    width: 10%;
+}
+
+.owl-nav{
+    display: none;
+}
+
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+    background-color: var(--color);
+}
+
+
+
+
+/* ***********************
+         footer  css
+*************************/
+footer{
+    width: 100%;
+    padding: 20px 0px;
+    background-color: #2f2f2f;
+}
+
+footer h2{
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+footer p{
+    color: white;
+    margin: 15px 0px;
+    font-size: 20px;
+    text-align: justify;
+}
+
+
+footer p i{
+    color: var(--color);
+    margin-right: 10px;
+}
+
+footer #last{
+    margin-left: 30px;
+}
+
+footer ul li i{
+    margin-top: 25px;
+    color: #b7b7b7;
+    margin-right:12px ;
+    font-size: 25px;
+}
+footer ul li i:hover{
+    color: var(--color);
+}
